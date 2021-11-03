@@ -1,0 +1,411 @@
+
+  @font-face {
+      font-family: 'fjalla_oneregular';
+      src: url('font/fjallaone-regular-webfont.woff2') format('woff2'),
+           url('font/fjallaone-regular-webfont.woff') format('woff');
+      font-weight: normal;
+      font-style: normal;
+  }
+
+  body {
+    font-family: 'fjalla_oneregular', helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0px;
+    margin: auto;
+    background-color: #ebeced;
+    }
+
+
+  div#header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+  }
+
+  div#menuPadre {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #1e212b;
+  }
+
+  div#logo {
+    color: #ffffff;
+    float: left;
+    padding: 0px 80px;
+    margin-left: 170px;
+  }
+  div.menu {
+    align-items: center;
+  }
+
+  div#menuNavegacion {
+    float: right;
+    margin-right: 150px;
+  }
+
+
+  .colorMenu {
+    background-color: #1e212b;
+  }
+
+  .seccionMenu {
+    float: left;
+    padding: 20px 40px;
+  }
+  li, a {
+    letter-spacing: 1px;
+    color: #ffffff;
+    list-style: none;
+    text-decoration: none;
+  }
+
+  a:hover{
+    color: #fa225b;
+  }
+
+  .slider {
+    height: 859px;
+    text-align: center;
+    background-color: #20232c;
+    background-position: center;
+    background-image: url('img/fondo-slider.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    align-items: center;
+
+  }
+
+
+  div.tituloSlider {
+    margin: auto;
+  }
+
+  .slider h1 {
+    margin: auto 0;
+    letter-spacing: 5px;
+    color: #fc245c;
+    font-size: 120px;
+  }
+
+  .slider h3 {
+    flex-grow: 0;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-style: normal;
+    letter-spacing: 5px;
+    color: #96c577;
+  }
+
+  .perfilProfesional {
+    text-align: center;
+    height: 750px;
+    float: right;
+    width: 100%;
+    margin: 0;
+    background-color: #20232c;
+
+  }
+
+  div#seccionPerfilProfesional {
+    text-align: center;
+  }
+
+#titulosPerfilProfesional {
+  padding-top: 50px;
+}
+
+  .titulosH2 {
+    letter-spacing: 2px;
+    font-size: 36px;
+    color: #ffffff;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .titulosH5{
+      font-weight: 400;
+      letter-spacing: 4px;
+      font-style: normal;
+      color: #667084;
+      font-size: 18px;
+      margin-bottom: 2.25em;
+  }
+
+  .separador {
+      border-color: #ffffff;
+      border-bottom-style: solid;
+      border: 0 solid #e7e6e6;
+      width: 100%;
+      max-width: 130px;
+      margin-left:auto;
+      margin-right: auto;
+      margin-bottom: 50px;
+      margin-top: 0;
+  }
+
+  div#sobreMi1 {
+    margin-right: 100px;
+  }
+
+  div#sobreMi2 {
+    margin-left: : 100px;
+  }
+
+  div#sobreMi1, #sobreMi2 {
+    text-align: justify;
+    display: inline-block;
+    width: 500px;
+    color: #586a8b;
+    background-color: #20232c;
+  }
+
+
+  div#sobreMi2 ,#sobreMi1 p {
+    line-height: 1.88;
+  }
+
+  #imgCita {
+    margin-bottom: -10px;
+  }
+
+  .fullStack {
+    margin-top: -4px;
+    text-align:  center;
+  }
+
+
+
+  .backend {
+    letter-spacing: 5px;
+    top:0;
+    color: #343434;
+    background-color: #586a8b;
+    float: left;
+    width: 50%;
+    display: inline-block;
+  }
+
+  .frontend {
+    letter-spacing: 5px;
+    color: #343434;
+    right: :0;
+    background-color: #586a8b;
+    width: 50%;
+    display: inline-block;
+    margin: auto;
+  }
+
+  #citaContedor {
+    position: relative;
+    display: inline-block;
+    text-align: right;
+  }
+
+  #textoCita{
+    position: absolute;
+    top:25%;
+    left: 45%;
+    transform: translate(-25% -25%);
+    opacity: 0.5;
+  }
+
+  blockquote {
+    background-color: #20232c;
+    border-radius: 10px;
+    border-left:  5px solid;
+    border-color: #ff245c;
+  }
+
+  #textoCita p{
+    padding-right: 20px;
+    font-style: italic;
+    line-height: 2em;
+    letter-spacing: 5px;
+    color: #ffffff;
+    font-size: 56px;
+    text-transform: uppercase;
+    opacity: 1;
+  }
+
+  #textoCita cite {
+    float: right;
+    opacity: 1;
+    color: #ff245c;
+  }
+
+
+.aptitudes {
+  padding: 50px 0 50px 0;
+  margin-top: -21px;
+  text-align: center;
+  background-color: #20232c;
+  width: 100%;
+  height: 800px;
+}
+
+#aptitudesTitulos {
+  padding-top: 100px;
+}
+
+.aptitudesContenedor {
+  display: flex;
+  align-items: center;
+}
+
+.aptitudesPadre {
+  border-width: 1px 1px 1px 1px;
+  border-color: #2e313a;
+  border-style: solid;
+  background-color: #1a1d24;
+  width: 100%
+  height: 350px;
+  margin:  auto;
+}
+
+.caja {
+  color: #ffffff;
+  display: flex;
+  margin: auto 50px ;
+}
+
+.descripcion, .info {
+  padding: 40px 0;
+  width: 40%;
+}
+
+.nombre {
+  padding: 40px 0;
+  width: 25%;
+  font-weight: 400;
+  letter-spacing: 4px;
+  font-style: normal;
+  color: #ff245c;
+  font-size: 24px;
+}
+
+.descripcion {
+  margin-right: 10px;
+  color: #586a8b;
+  letter-spacing: 2px;
+}
+
+.info {
+  line-height: 1.5em;
+  margin-left: 10px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  font-style: normal;
+  color: #555c6e;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.barraContactameContenedor {
+  background-color: #586a8b;
+  display: flex;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.padreBarraContactame {
+  height: 110px;
+  align-items: center;
+  display: flex;
+  margin: 0 auto 0 auto;
+}
+
+#tituloContactame {
+  font-size: 20px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 2px;
+  color: #000000;
+  margin:  auto 30px;;
+  display: inline-block;
+}
+
+#botonContactame {
+  margin: auto 30px;
+}
+
+#botonContactame input {
+  background-color: #20232c;
+  border-radius: 5px;
+  border-style: none;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 10px 50px;
+  color: #cccccc;
+}
+
+#botonContactame input:hover {
+  background-color: #ebeced;
+  color: #000000;
+  font-weight: 500;
+}
+
+
+.infoContenedor {
+  display: flex;
+  align-items: center;
+  background-color: #ebeced
+}
+
+.infoPadre {
+  margin: 100px auto;
+  display: flex;
+}
+
+.cuadro {
+  margin: 0 100px;
+  height: 350px;
+}
+
+.tituloInfo {
+  color: #4b4b4b;
+  font-size: 30px;
+  letter-spacing: 5px;
+}
+.textoInfo {
+  color: #667084;
+  line-height: 2;
+}
+
+.textoInfo a {
+  color: #fc245c;
+}
+
+.textoInfo a:hover {
+  color: #b6b6b6;
+}
+
+.pieDePaginaContenedor {
+    display:  flex;
+    background-color: #20232c;
+    align-items: center;
+    height: 300px;
+  }
+
+.padreFooter {
+  color: #667084;
+  font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: auto;
+}
+
+.copyright a {
+ color: #fc245c;
+}
+.copyright a:hover {
+ color: #b6b6b6;
+}
+
+.instacopyright {
+ letter-spacing: 1.5px;
+}
